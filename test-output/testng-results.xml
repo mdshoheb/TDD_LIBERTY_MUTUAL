@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19751" started-at="2022-10-20T19:10:25Z" finished-at="2022-10-20T19:10:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19751" started-at="2022-10-20T19:10:25Z" finished-at="2022-10-20T19:10:45Z">
+      <class name="pages.HomePageTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:pages.HomePageTest@19bb07ed]" name="setUpDriver" is-config="true" duration-ms="19492" started-at="2022-10-20T19:10:25Z" finished-at="2022-10-20T19:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="getMyPrice()[pri:0, instance:pages.HomePageTest@19bb07ed]" name="getMyPrice" duration-ms="12" started-at="2022-10-20T19:10:44Z" finished-at="2022-10-20T19:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMyPrice -->
+        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:pages.HomePageTest@19bb07ed]" name="closingDriverSession" is-config="true" duration-ms="208" started-at="2022-10-20T19:10:44Z" finished-at="2022-10-20T19:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriverSession -->
+      </class> <!-- pages.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
