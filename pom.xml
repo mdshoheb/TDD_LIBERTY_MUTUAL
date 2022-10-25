@@ -5,6 +5,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>FrameWork for Liberty Mutual Insurance</name>
 	<description>TDD Framework  Liberty Mutual Insurance</description>
+	<properties>
+		<javaVersion>1.8</javaVersion>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -22,4 +25,18 @@
 			<version>5.3.0</version>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.1</version>
+				<configuration>
+					<source>${javaVersion}</source>
+					<target>${javaVersion}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
