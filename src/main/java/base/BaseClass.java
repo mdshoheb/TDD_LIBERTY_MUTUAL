@@ -51,28 +51,26 @@ public class BaseClass {
 			WebDriverManager.safaridriver().setup();
 			driver = new SafariDriver();
 			break;
-
 		default:
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			break;
+			
 		}
 	}
-	
+
+
 	public void initClass() {
 		homePage = new HomePage(driver);
 	}
-		
+
 	public WebDriver getDriver() {
 		return driver;
 	}
-	
+
 	@AfterMethod
 	public void closingDriverSession() {
 		getDriver().quit();
 	}
-	
+
 }
-		
-
-
